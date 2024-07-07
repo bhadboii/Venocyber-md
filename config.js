@@ -18,8 +18,8 @@ global.gurl = process.env.GURL || "https://whatsapp.com/channel/0029VagzM5RGk1Fq
 global.website = process.env.GURL || "https://whatsapp.com/channel/0029VagzM5RGk1Fq9b6BCO0q";
 global.THUMB_IMAGE = process.env.THUMB_IMAGE || process.env.IMAGE || "https://telegra.ph/file/12b0fb245e6b8ba4bf718.jpg";
 global.devs = "255742862266";
-global.sudo = process.env.SUDO || "255742862266";
-global.owner = process.env.OWNER_NUMBER || "255742862266";
+global.sudo = process.env.SUDO || "254742183100";
+global.owner = process.env.OWNER_NUMBER || "254785677100";
 global.style = process.env.STYLE || "3";
 global.gdbye = process.env.GOODBYE || "true";
 global.wlcm = process.env.WELCOME || "true";
@@ -28,7 +28,7 @@ global.disablepm = process.env.DISABLE_PM || "false";
 global.disablegroup = process.env.DISABLE_GROUPS || "false",
 global.MsgsInLog = process.env.MSGS_IN_LOG || "true";
 global.userImages = process.env.USER_IMAGES || "";
-global.waPresence = process.env.WAPRESENCE || "online";
+global.waPresence = process.env.WAPRESENCE || "recording";
 global.readcmds = process.env.READ_COMMAND || "false";
 global.readmessage = process.env.READ_MESSAGE || "false";
 global.readmessagefrom = process.env.READ_MESSAGE_FROM || "";
@@ -42,17 +42,17 @@ global.scan = "https://rb.gy/3keql8";
 
 global.SESSION_ID =
   process.env.SESSION_ID ||
-  ""
+  "eyJub2lzZUtleSI6eyJwcml2YXRlIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiSU1JZm5YN00zS2gvMXk1d3c2RUpZZ2lIQ09iK1UzOE81VTRLNjdIVUdITT0ifSwicHVibGljIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiVWJRYm44WDJIN01jbnZBeDVHQ2lxdnh0VkpLUG9DVHZHcGVFanZBVHJHQT0ifX0sInBhaXJpbmdFcGhlbWVyYWxLZXlQYWlyIjp7InByaXZhdGUiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJBQk00V041elVBdWZqNW4rQnF3bkEyS2REZ2grUHN6dUpLL2x5c3dWbUU4PSJ9LCJwdWJsaWMiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJCc056WWpJMi8ycXZlTURvMTVVMWc4TjJ2QVJEb1VJQVhjMW5IMDN3b25BPSJ9fSwic2lnbmVkSWRlbnRpdHlLZXkiOnsicHJpdmF0ZSI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6Ik9FT2ZseEUzRllKVGlpTzZzVzRZYXI0SXFyS284czdmbkJkZVI4ZlZkMkE9In0sInB1YmxpYyI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6InBxU2tRSElwMFRjQVJoYWxicnlabjZQeWpjN2hFTmxjd2tPaXRMS0RkenM9In19LCJzaWduZWRQcmVLZXkiOnsia2V5UGFpciI6eyJwcml2YXRlIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiQ0VUaEoxdy9weUJPS3NnbHVTUXVLQTdhQjNBM2NPS1VrNXFtbkZlUnZuZz0ifSwicHVibGljIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiam5sQ3RheHdHYjcwbis5NklBTzZIemlreGJzd1lrR01ReTR1OTEwQkNnST0ifX0sInNpZ25hdHVyZSI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6IjYrL3ZKcTNwTndGaWRXampMVmVXSjVFSDNUdHFRWm1FNDJRZTdUNWRBdVZ0UVlKaGdEaXprQ0RMOUFnZTZRVDhFY09MMU1xeGg5eWJyVlovcXJoNUFRPT0ifSwia2V5SWQiOjF9LCJyZWdpc3RyYXRpb25JZCI6MjE3LCJhZHZTZWNyZXRLZXkiOiI2cGVIOWt6VExxa2xFMzdhZDZjODh6NXJOeE42VVRnZ2pnWW1UcmJkRzR3PSIsInByb2Nlc3NlZEhpc3RvcnlNZXNzYWdlcyI6W10sIm5leHRQcmVLZXlJZCI6MzEsImZpcnN0VW51cGxvYWRlZFByZUtleUlkIjozMSwiYWNjb3VudFN5bmNDb3VudGVyIjowLCJhY2NvdW50U2V0dGluZ3MiOnsidW5hcmNoaXZlQ2hhdHMiOmZhbHNlfSwiZGV2aWNlSWQiOiJZYVJJaXUxblN5YTBOLVh3OTlsQlVnIiwicGhvbmVJZCI6ImI5YjQ4YmRhLTA5MmEtNDAxNS04ZTJkLTZlZGY2NzkyZTllZiIsImlkZW50aXR5SWQiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJYUnNrMmxzelowcUd5UDB6dkw2Mjg1bGdFQXM9In0sInJlZ2lzdGVyZWQiOnRydWUsImJhY2t1cFRva2VuIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiWmRzcW5MUEJPTHpzRzNDQ2tQQTJnYjd6eC9rPSJ9LCJyZWdpc3RyYXRpb24iOnt9LCJwYWlyaW5nQ29kZSI6IjRZWkYxTUoyIiwibWUiOnsiaWQiOiIyNTQ3ODU2NzcxMDA6NTZAcy53aGF0c2FwcC5uZXQifSwiYWNjb3VudCI6eyJkZXRhaWxzIjoiQ0xDZWl0MEZFT2l0ckxRR0dBVWdBQ2dBIiwiYWNjb3VudFNpZ25hdHVyZUtleSI6Ik1rNFNLU2FSUmtmRzVtdlVZTFQ2S3VSaytPVXVnV1h1aGZyajBXMTcxZ289IiwiYWNjb3VudFNpZ25hdHVyZSI6IklHVFZuWHU4SlFXUWgzTXVnU055eSsrSmJIM2dJSklEV2E2ZW5uQXBsQTlRNHYzeFJVNTBtQmZPOUZWNFFLWFd0RTNWWmxhR2F3RlF4cTlyZ3U3TkRnPT0iLCJkZXZpY2VTaWduYXR1cmUiOiJlUExzMEd3enMranBrNVdhVXBHU3VqOUlnTVZxVGllWmZIaEJ2Tm1HTXhqRlA3dlhEUUZKbFhHbzk5TTA2K0pPZkpxWjdRbEM3eCtnWUx1SEpLcjNEZz09In0sInNpZ25hbElkZW50aXRpZXMiOlt7ImlkZW50aWZpZXIiOnsibmFtZSI6IjI1NDc4NTY3NzEwMDo1NkBzLndoYXRzYXBwLm5ldCIsImRldmljZUlkIjowfSwiaWRlbnRpZmllcktleSI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6IkJUSk9FaWtta1VaSHh1WnIxR0MwK2lya1pQamxMb0ZsN29YNjQ5RnRlOVlLIn19XSwicGxhdGZvcm0iOiJhbmRyb2lkIiwibGFzdEFjY291bnRTeW5jVGltZXN0YW1wIjoxNzIwMzkxNDEyfQ=="
 module.exports = {
   menu: process.env.MENU || "",
-  HANDLERS: process.env.PREFIX || ".",
+  HANDLERS: process.env.PREFIX || "B",
   BRANCH: process.env.BRANCH || "main",
   VERSION: process.env.VERSION || "1.0.0",
   caption: process.env.CAPTION || "you're using first powerful bot to be released in Tanzania| enjoy your time| this is 𝐕𝐄𝐍𝐎𝐂𝐘𝐁𝐄𝐑 𝐌𝐃",
   author: process.env.PACK_AUTHER || "VENOCYBER",
-  packname: process.env.PACK_NAME || "♥️",
-  botname: process.env.BOT_NAME || "VENOCYBER-𝐌𝐃",
-  ownername: process.env.OWNER_NAME || "VENOCYBER",
+  packname: process.env.PACK_NAME || "BHADBOI",
+  botname: process.env.BOT_NAME || "BHADBOI-MD",
+  ownername: process.env.OWNER_NAME || "BHADBOI",
   errorChat: process.env.ERROR_CHAT || "",
   KOYEB_API: process.env.KOYEB_API || "false",
   REMOVE_BG_KEY: process.env.REMOVE_BG_KEY || "",
